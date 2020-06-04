@@ -1,0 +1,2 @@
+cd C:\Users\anush\eclipse-workspace\TestNG
+mvn clean install

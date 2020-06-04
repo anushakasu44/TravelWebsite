@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Guru99 test application suite test]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Guru99 application Test(failed)">
+    <classes>
+      <class name="com.app.qa.tests.ManagerHomePageTest">
+        <methods>
+          <include name="managerIdVerificationTest"/>
+          <include name="addCustomerTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.app.qa.tests.ManagerHomePageTest -->
+    </classes>
+  </test> <!-- Guru99 application Test(failed) -->
+</suite> <!-- Failed suite [Guru99 test application suite test] -->

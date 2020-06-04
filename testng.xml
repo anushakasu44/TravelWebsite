@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 test application suite test" verbose="4">
+
+ <listeners>
+ <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+ 
+ </listeners>
+ 
+ 
+  <test name="Guru99 application Test">
+    <classes>
+      <!-- <class name="com.app.qa.tests.AddCustomerPagetest"/> -->
+      <!-- <class name="com.app.qa.tests.ManagerHomePageTest"/> -->
+      <class name="com.app.qa.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
