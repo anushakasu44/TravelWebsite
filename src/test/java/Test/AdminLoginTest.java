@@ -1,12 +1,9 @@
 package Test;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import Com.Util.BaseClass;
-import Com.Util.DataDriven;
 import pages.AddCustomerdetails;
 import pages.AdminDashboard;
 import pages.AdminLogin;
