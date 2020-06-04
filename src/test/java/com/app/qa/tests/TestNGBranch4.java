@@ -1,10 +1,10 @@
 package com.app.qa.tests;
 
-public class testNGbranch {
+public class TestNGBranch4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("hdfgjfdg");
+System.out.println("branch4");
 	}
 
 }
